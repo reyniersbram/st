@@ -11,6 +11,7 @@ can be found at [suckless.org](https://st.suckless.org/patches/).
 
 | url | description |
 | --- | --- |
+| [expected-anysize](https://st.suckless.org/patches/anysize/st-expected-anysize-0.9.diff) | Insert padding to match window size |
 
 ## Installation
 
