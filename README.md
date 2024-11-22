@@ -13,6 +13,8 @@ can be found at [suckless.org](https://st.suckless.org/patches/).
 | --- | --- |
 | [expected-anysize](https://st.suckless.org/patches/anysize/st-expected-anysize-0.9.diff) | Insert padding to match window size |
 | [glyph-wide-support](https://st.suckless.org/patches/glyph_wide_support/st-glyph-wide-support-20230701-5770f2f.diff) | Add support for wide glyphs |
+| [scrollback-ringbuffer](https://st.suckless.org/patches/scrollback/st-scrollback-ringbuffer-0.9.2.diff) | Allow scrolling |
+| [scrollback-mouse](https://st.suckless.org/patches/scrollback/st-scrollback-mouse-0.9.2.diff) and [scrollback-mouse-altscreen](https://st.suckless.org/patches/scrollback/st-scrollback-mouse-altscreen-20220127-2c5edf2.diff) | Allow scrolling with the mouse |
 
 ## Installation
 
