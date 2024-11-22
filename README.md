@@ -12,6 +12,7 @@ can be found at [suckless.org](https://st.suckless.org/patches/).
 | url | description |
 | --- | --- |
 | [expected-anysize](https://st.suckless.org/patches/anysize/st-expected-anysize-0.9.diff) | Insert padding to match window size |
+| [glyph-wide-support](https://st.suckless.org/patches/glyph_wide_support/st-glyph-wide-support-20230701-5770f2f.diff) | Add support for wide glyphs |
 
 ## Installation
 
