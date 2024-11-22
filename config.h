@@ -171,9 +171,13 @@ static unsigned int defaultattr = 11;
 static uint forcemousemod = ShiftMask;
 
 /*
- * The speed at which the mouse scrolls up
+ * The scroll speed
+ * Positive is amount of lines to scroll
+ * Negative is full pages to scroll
  */
 const unsigned int mousescrollincrement = 3;
+const unsigned int smallscrollincrement = 1;
+const unsigned int bigscrollincrement = -1;
 
 /*
  * Internal mouse shortcuts.
@@ -208,8 +212,12 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
-	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
+	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = bigscrollincrement} },
+	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = bigscrollincrement} },
+    { MODKEY,               XK_u,           kscrollup,      {.i = bigscrollincrement} },
+    { MODKEY,               XK_d,           kscrolldown,    {.i = bigscrollincrement} },
+    { MODKEY,               XK_k,           kscrollup,      {.i = smallscrollincrement} },
+    { MODKEY,               XK_j,           kscrolldown,    {.i = smallscrollincrement} },
 };
 
 /*
