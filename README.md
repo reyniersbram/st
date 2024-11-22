@@ -29,6 +29,7 @@ a remote called upstream.
 patch -p0 < gitconfig.diff
 ```
 
+Then just run `git pull` to get the latest changes.
+
 > [!NOTE]
-> Then just run `git pull` to get the latest changes. There is absolutely no 
-> guarantee no conflicts will come up.
+> There is absolutely no guarantee no conflicts will come up.
