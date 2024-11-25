@@ -36,6 +36,7 @@ dist: clean
 
 install: st
 	install -Dm 755 st $(DESTDIR)$(PREFIX)/bin/st
+	install -Dm 644 st.desktop $(DESTDIR)$(APPPREFIX)/st.desktop
 	mkdir -p $(DESTDIR)$(MANPREFIX)/man1
 	sed "s/VERSION/$(VERSION)/g" < st.1 > $(DESTDIR)$(MANPREFIX)/man1/st.1
 	chmod 644 $(DESTDIR)$(MANPREFIX)/man1/st.1
@@ -44,6 +45,7 @@ install: st
 
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/st
+	rm -f $(DESTDIR)$(APPPREFIX)/st.desktop
 	rm -f $(DESTDIR)$(MANPREFIX)/man1/st.1
 
 .PHONY: all clean dist install uninstall
