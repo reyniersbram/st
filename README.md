@@ -27,7 +27,7 @@ sudo make install
 
 ## Updating to the latest version of st
 
-Set up the local git configuration to have the official dwm repository as 
+Set up the local git configuration to have the official st repository as 
 a remote called upstream.
 
 ```sh
