@@ -16,6 +16,7 @@ can be found at [suckless.org](https://st.suckless.org/patches/).
 | [scrollback-ringbuffer](https://st.suckless.org/patches/scrollback/st-scrollback-ringbuffer-0.9.2.diff) | Allow scrolling |
 | [scrollback-mouse](https://st.suckless.org/patches/scrollback/st-scrollback-mouse-0.9.2.diff) and [scrollback-mouse-altscreen](https://st.suckless.org/patches/scrollback/st-scrollback-mouse-altscreen-20220127-2c5edf2.diff) | Allow scrolling with the mouse |
 | [fix-keyboard-input](https://st.suckless.org/patches/fix_keyboard_input/st-fix-keyboard-input-20180605-dc3b5ba.diff) | See [this](http://www.leonerd.org.uk/hacks/fixterms/) proposal. Allows certain key combinations. |
+| [xresources](https://st.suckless.org/patches/xresources/st-xresources-20200604-9ba7ecf.diff) | Load configuration values from .Xresources |
 
 ## Installation
 
